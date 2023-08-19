@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.contenedro_info{
+    margin: 80px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #0A3A68;
+    height: 155px;
+}
+.logo_umg{
+    width: 25%;
+    justify-content: start;
+    display:block;
+}
+.titulo_umg{
+    width: 50%;
+}
+.logo_perfil{
+    width: 25%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.logo_umg img{
+    width: 190px;
+    padding: 10px;
+    margin: 10px;
+}
+.logo_perfil img{
+    width: 150px;
+    margin-bottom: 40px;
+    margin-left: 35px;
+}
+.titulo_umg h1{
+    font-family: segoe UI;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+}
+.titulo_umg h4{
+    margin: 0;
+    font-family: segoe UI;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    color: white;
+}
+.contenedro_info h1{
+    font-family: segoe UI;
+    font-size: 30px;
+    font-weight: 200;
+    text-align:start;
+    margin-bottom: 0;
+    padding-bottom: 25px;
+}
+.Informacion_personal{
+    display: block;
+    
+}
+
+.Informacion_personal input{
+    margin: 10px;
+    width: 100%;
+  max-width: 320px;
+  height: 18px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1.5px solid lightgrey;
+  outline: none;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  box-shadow: 0px 0px 20px -18px;
+}
+.Informacion_personal input:hover {
+    border: 2px solid lightgrey;
+    box-shadow: 0px 0px 20px -17px;
+  }
+  
+  .Informacion_personal input:active {
+    transform: scale(0.95);
+  }
+  
+  .Informacion_personal input:focus {
+    border: 2px solid grey;
+  }
+
+  .Informacion_personal select{
+    margin: 10px;
+    width: 100%;
+  max-width: 348px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1.5px solid lightgrey;
+  outline: none;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  box-shadow: 0px 0px 20px -18px;
+}
+.Informacion_personal select:hover {
+    border: 2px solid lightgrey;
+    box-shadow: 0px 0px 20px -17px;
+  }
+  
+  .Informacion_personal select:active {
+    transform: scale(0.95);
+  }
+  
+  .Informacion_personal select:focus {
+    border: 2px solid grey;
+  }
